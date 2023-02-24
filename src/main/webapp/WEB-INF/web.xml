@@ -1,0 +1,63 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>a</servlet-name>
+  	<display-name>UserController</display-name>
+  	<description></description>
+  	<servlet-class>com.myapp.controller.UserController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>b</servlet-name>
+  	<display-name>UserController</display-name>
+  	<description></description>
+  	<servlet-class>com.myapp.controller.UserController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteController</servlet-name>
+  	<display-name>DeleteController</display-name>
+  	<description></description>
+  	<servlet-class>com.myapp.controller.DeleteController</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>c</servlet-name>
+  	<display-name>DeleteController</display-name>
+  	<description></description>
+  	<servlet-class>com.myapp.controller.DeleteController</servlet-class>
+  </servlet>
+   <servlet>
+   	<servlet-name>UpdateController</servlet-name>
+   	<display-name>UpdateController</display-name>
+   	<description></description>
+   	<servlet-class>com.myapp.controller.UpdateController</servlet-class>
+   </servlet>
+    <servlet>
+   	<servlet-name>update</servlet-name>
+   	<display-name>update</display-name>
+   	<description></description>
+   	<servlet-class>com.myapp.controller.UpdateController</servlet-class>
+   </servlet>
+  <servlet-mapping>
+  	<servlet-name>a</servlet-name>
+  	<url-pattern>/UserController</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>b</servlet-name>
+  	<url-pattern>/listUser</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>DeleteController</servlet-name>
+   	<url-pattern>/delete</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>UpdateController</servlet-name>
+   	<url-pattern>/edit</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>update</servlet-name>
+   	<url-pattern>/updateUser</url-pattern>
+   </servlet-mapping>
+</web-app>
